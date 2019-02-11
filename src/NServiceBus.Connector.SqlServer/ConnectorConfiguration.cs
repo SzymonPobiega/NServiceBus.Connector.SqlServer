@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Data.SqlClient;
-using NServiceBus.Features;
 using NServiceBus.Router;
 using NServiceBus.Transport;
 

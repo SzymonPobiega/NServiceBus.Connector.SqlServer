@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2041
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NServiceBus.Connector.SqlServer", "NServiceBus.Connector.SqlServer\NServiceBus.Connector.SqlServer.csproj", "{59886E47-163E-47B5-A8BE-BD5E173D718C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NServiceBus.Connector.SqlServer", "NServiceBus.Connector.SqlServer\NServiceBus.Connector.SqlServer.csproj", "{59886E47-163E-47B5-A8BE-BD5E173D718C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sample", "Sample", "{AAB19121-4EC7-489C-BE6B-66C51C718E4C}"
 EndProject
@@ -12,6 +12,11 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Endpoint", "Sample\Endpoint\Endpoint.csproj", "{34AED76E-A326-4876-8D96-2F7389173FAD}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplication", "Sample\WebApplication\WebApplication.csproj", "{E6409A34-B3B1-4433-9F3A-8F77D71B09DB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A9232F61-93DE-41CF-981A-5F5D10B2BBA7}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Build.targets = Directory.Build.targets
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

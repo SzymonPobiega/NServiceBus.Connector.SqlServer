@@ -11,7 +11,7 @@ Unfortunately the Outbox works only in the context of a message handler. More sp
 Say hello to the Connector!
 
 
-## Show me da codez
+## How do I use it?
 
 Here's how the controller code looks like when using plain ADO.NET data access
 

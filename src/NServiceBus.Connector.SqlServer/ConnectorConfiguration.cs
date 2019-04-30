@@ -30,6 +30,7 @@ namespace NServiceBus.Connector.SqlServer
             routerConfig = new RouterConfiguration(name);
             var sqlInterface = routerConfig.AddInterface<SqlServerTransport>("SQL", t =>
             {
+                t.Transactions(TransportTransactionMode.SendsAtomicWithReceive);
                 t.ConnectionString(sqlConnectionString);
             });
 

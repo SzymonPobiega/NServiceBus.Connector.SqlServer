@@ -1,5 +1,7 @@
 # NServiceBus.Connector.SqlServer
 
+NOTE: This package has been been superseded by the [Transactional Session](https://docs.particular.net/nservicebus/transactional-session/) package published by Particular.
+
 A package that allows atomic sending and database updates in a send-only endpoint in a transport-agnostic way
 
 ## Why?
